@@ -1,18 +1,10 @@
-## Getting Started
+## Como rodar
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Certifique-se de que está no diretório raiz do projeto (`poo2_atv2_disciplina`)
+- Compile os arquivos:  
+  `javac model/*.java dao/*.java app/*.java`
+- Inicie o programa:  
+  `java app.MainApp`
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## OBS.
+O programa já é iniciado com 4 disciplinas cadastradas para facilitar os testes.
